@@ -4,6 +4,7 @@
   position: relative;
   overflow: hidden;
   min-height: 90vh;
+  padding-top: 80px;
 }
 
 .home::before {
@@ -161,6 +162,10 @@
 }
 
 @media (max-width: 968px) {
+  .home {
+    padding-top: 100px;
+  }
+
   .home-content {
     grid-template-columns: 1fr;
     text-align: center;
@@ -201,6 +206,10 @@
 }
 
 @media (max-width: 480px) {
+  .home {
+    padding-top: 110px;
+  }
+
   .home-content {
     padding-bottom: 5rem;
     gap: 1.5rem;
