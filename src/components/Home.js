@@ -9,17 +9,16 @@ const Home = () => {
           <h1 className="home-title">
             Hi, I'm <span className="highlight">Mansi</span>
           </h1>
-          <h2 className="home-subtitle">Software Engineer</h2>
+          <p className="home-subtitle">Software Engineer</p>
           <p className="home-description">
-            I'm a passionate software engineer with 5 years of experience building
-            scalable, secure, and high-performance backend systems using Java and Spring Boot.
+            I design and deliver secure, high-performance Java and Spring Boot systems that turn complex requirements into reliable user experiences.
           </p>
           <div className="home-buttons">
             <a href="#projects" className="btn btn-primary">
-              View My Work
+              View Projects
             </a>
             <a href="#contact" className="btn btn-secondary">
-              Get In Touch
+              Contact
             </a>
           </div>
         </div>

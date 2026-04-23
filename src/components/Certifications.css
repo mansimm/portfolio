@@ -150,7 +150,8 @@
 
 @media (max-width: 480px) {
   .section-subtitle {
-    font-size: 1rem;
+    font-size: clamp(1rem, 2vw, 1.125rem);
+    line-height: 1.8;
   }
 
   .certification-content {

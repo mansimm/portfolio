@@ -72,7 +72,10 @@
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
   border: 2px solid transparent;
 }
 
@@ -228,8 +231,9 @@
   }
 
   .btn {
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.25rem;
     font-size: 0.875rem;
+    min-height: 44px;
   }
 
   .profile-photo {
@@ -258,5 +262,9 @@
   .scroll-arrow {
     font-size: 1.25rem;
   }
+}
+
+html[data-theme='dark'] .home {
+  background: linear-gradient(135deg, #4338ca 0%, #312e81 55%, #1e1b4b 100%);
 }
 

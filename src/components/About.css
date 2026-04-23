@@ -3,12 +3,13 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-24);
   color: var(--text-dark);
   position: relative;
   display: inline-block;
+  line-height: 1.2;
 }
 
 .section-title::after {
@@ -21,6 +22,15 @@
   height: 4px;
   background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
   border-radius: 2px;
+}
+
+.section-subtitle {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 1.8;
+  color: var(--text-light);
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-content {
@@ -37,9 +47,9 @@
 
 .about-bio {
   font-size: 1.1rem;
-  line-height: 1.8;
+  line-height: 1.85;
   color: var(--text-light);
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--space-16);
 }
 
 .about-info-section {
@@ -266,7 +276,7 @@
 
 @media (max-width: 480px) {
   .section-title {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .about-bio {

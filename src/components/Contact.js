@@ -97,7 +97,8 @@ const Contact = () => {
               ))}
               <div
                 className="social-link location-link"
-                aria-label="Location"
+                role="img"
+                aria-label="Location: India"
                 data-tooltip="India"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor">
